@@ -10,12 +10,17 @@ const Hero = () => {
           the world
         </Text>
         <Heading>
-          The first Ai-Generated token.{" "}
+          The first Ai-Generated token.
           <Text color="green" as="span">
             Ever.
           </Text>
         </Heading>
-        <Button size="lg" bg="green" mt="24px">
+        <Button
+          size="lg"
+          bg="green"
+          mt="24px"
+          _hover={{ transform: "scale(1.1)" }}
+        >
           Create a free account
         </Button>
       </Box>
