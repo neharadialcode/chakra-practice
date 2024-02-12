@@ -8,7 +8,7 @@ function App() {
   return (
     <ChakraProvider theme={customTheme}>
       <Hero />
-      <HeadingComponents />
+      {/* <HeadingComponents /> */}
     </ChakraProvider>
   );
 }
