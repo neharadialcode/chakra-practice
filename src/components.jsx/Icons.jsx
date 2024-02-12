@@ -2,6 +2,7 @@ import React from "react";
 
 export const RightArrow = () => (
   <svg
+    style={{ marginLeft: "10px" }}
     width="11"
     height="10"
     viewBox="0 0 11 10"
